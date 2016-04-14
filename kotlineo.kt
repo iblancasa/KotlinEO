@@ -33,8 +33,7 @@ fun crossover(chromosome1: BooleanArray, chromosome2:BooleanArray): Array<Boolea
 
   var new_chromo1=BooleanArray(length,{false});
   var new_chromo2=BooleanArray(length,{false});
-  println(xover_point);
-  println(scope);
+
   for(i in 0..xover_point-1){
     new_chromo1[i]=chromosome1[i];
     new_chromo2[i]=chromosome2[i];

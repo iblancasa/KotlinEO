@@ -24,7 +24,7 @@ fun main(args : Array<String>) {
   var top_length = 32768;
 
   while(length<top_length){
-    println("Kotlin-Onemax, "+length.toString()+", "+calculeTime(length,iterations));
+    println("Kotlin-BitVector, "+length.toString()+", "+calculeTime(length,iterations));
     length*=2;
   }
 }

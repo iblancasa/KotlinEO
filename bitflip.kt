@@ -22,7 +22,7 @@ fun main(args : Array<String>) {
 
   while(length<top_length){
     var indi =  random_chromosome(length)
-    println("Kotlin-Bitflip, "+length.toString()+", "+calculeTime(indi,iterations));
+    println("Kotlin-BitVector, "+length.toString()+", "+calculeTime(indi,iterations));
     length*=2;
   }
 }

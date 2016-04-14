@@ -23,7 +23,7 @@ fun main(args : Array<String>) {
   while(length<top_length){
     var indi =  random_chromosome(length)
     var indi2 =  random_chromosome(length)
-    println("Kotlin-Xover, "+length.toString()+", "+calculeTime(indi,indi2,iterations));
+    println("Kotlin-BitVector, "+length.toString()+", "+calculeTime(indi,indi2,iterations));
     length*=2;
   }
 }
