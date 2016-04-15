@@ -5,7 +5,15 @@ The same as [Pythoneo](https://github.com/iblancasa/PythonEO), [Luneo](https://g
 
 ### What do you need to run this?
 
-You have to install Kotlin language (usually is a package called kotlinc in Linux systems).
+You have to install Kotlin language (usually is a package called
+kotlinc in Linux systems), but most probably you will need to install
+SDKMAN!
+
+    curl -s get.sdkman.io | bash
+
+and then run this to install the kotlin compiler
+
+	sdk install kotlin
 
 #### Compiling and run
 ```bash
